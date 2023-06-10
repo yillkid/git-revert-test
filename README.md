@@ -121,4 +121,10 @@ Date:   Sat Jun 10 12:17:33 2023 +0800
 ```
 
 ## GitHub
+![image](https://github.com/yillkid/git-revert-test/assets/185872/df6d751c-7fcb-42d6-b619-d3a2d20ac010)
 
+## 解說
+- git revert 抽掉了 86099297d226c98c0a4d3d7bb5bff5581c83a744
+- git revert 產生了一個新的 sha-1
+- 與 soft reset 不同的是，revert 也撤回了 86099297d226c98c0a4d3d7bb5bff5581c83a744 的整個 commit
+- 與 hard reset 不同的是，revert 保留了所有的 commit log
